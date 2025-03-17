@@ -10,13 +10,13 @@
     - primary meta tags
   -->
   <title>Prince Healthcare</title>
-  <meta name="title" content="Doclab - home">
+  <meta name="title" content="Prince - home">
   <meta name="description">
 
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/svg+xml">
+  <link rel="shortcut icon" href="assets/images/android-chrome-512x512.png" type="image/svg+xml">
 
   <!-- 
     - google font link
@@ -73,7 +73,7 @@
         <div class="navbar-top">
 
           <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" width="136" height="46" alt="Doclab home">
+            <img src="./assets/images/android-chrome-512x512.png" width="136" height="46" alt="Doclab home">
           </a>
 
           <button class="nav-close-btn" aria-label="clsoe menu" data-nav-toggler>
@@ -99,46 +99,11 @@
           
         </ul>
 
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-pinterest"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
+      
       </nav>
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <ion-icon name="menu-outline"></ion-icon>
-      </button>
+      
 
-      <a href="https://rajeshr005.github.io/healthcare-chatbot/index.html" class="btn has-before title-md">Virtual Assistant</a>
+      <a href="https://rajeshr005.github.io/healthcare-chatbot/index.html" class="btn has-before title-md" id="assist">Virtual Assistant</a>
 
       <div class="overlay" data-nav-toggler data-overlay></div>
 
@@ -147,7 +112,7 @@
         <ion-icon name="menu-outline"></ion-icon>
       </button>
 
-      <a href="#" class="btn has-before title-md">Make Appointment</a>
+      <a href="#" class="btn has-before title-md" id="appointment">Make Appointment</a>
 
       <div class="overlay" data-nav-toggler data-overlay></div>
 
@@ -221,20 +186,35 @@
               <div class="service-card" data-reveal="bottom">
 
                 <div class="card-icon">
-                  <img src="./assets/images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
+                  <img src="./assets/images/healthcare (1).png" width="71" height="71" loading="lazy" alt="icon">
                 </div>
 
                 <h3 class="headline-sm card-title">
-                  <a href="#">Psychiatry</a>
+                  <a href="#">Patient-Centric Approach</a>
                 </h3>
 
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing
-                </p>
+                  Compassionate care, shorter wait times, and a seamless experience.
 
-                <button class="btn-circle" aria-label="read more about psychiatry">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
+
+               
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/24-7.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="#"> 24/7 Emergency & Virtual Care</a>
+                </h3>
+
+                <p class="card-text">
+                  Instant trauma response and virtual consultations—anytime, anywhere.
+
 
               </div>
             </li>
@@ -243,20 +223,19 @@
               <div class="service-card" data-reveal="bottom">
 
                 <div class="card-icon">
-                  <img src="./assets/images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+                  <img src="./assets/images/biotechnology.png" width="71" height="71" loading="lazy" alt="icon">
                 </div>
 
                 <h3 class="headline-sm card-title">
-                  <a href="#">Gynecology</a>
+                  <a href="#">Advanced Medical Expertise</a>
                 </h3>
 
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                  World-class specialists providing precise, evidence-based treatments.
+
                 </p>
 
-                <button class="btn-circle" aria-label="read more about Gynecology">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
+                
 
               </div>
             </li>
@@ -265,42 +244,25 @@
               <div class="service-card" data-reveal="bottom">
 
                 <div class="card-icon">
-                  <img src="./assets/images/icon-3.png" width="71" height="71" loading="lazy" alt="icon">
+                  <img src="./assets/images/ai.png" width="71" height="71" loading="lazy" alt="icon">
                 </div>
 
                 <h3 class="headline-sm card-title">
-                  <a href="#">Pulmonology</a>
+                  <a href="#">Cutting-Edge <br>Technology</a>
                 </h3>
 
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                  AI-powered diagnostics and smart monitoring for faster recovery.
+
+
+
+
+
+
+
                 </p>
 
-                <button class="btn-circle" aria-label="read more about Pulmonology">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-4.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <h3 class="headline-sm card-title">
-                  <a href="#">Orthopedics</a>
-                </h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing
-                </p>
-
-                <button class="btn-circle" aria-label="read more about Orthopedics">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
+              
 
               </div>
             </li>
@@ -318,202 +280,44 @@
         - #ABOUT
       -->
 
-      <section class="section about" aria-labelledby="about-label">
+      <section class="about-section">
         <div class="container">
-
-          <div class="about-content">
-
-            <p class="section-subtitle title-lg has-after" id="about-label" data-reveal="left">About Us</p>
-
-            <h2 class="headline-md" data-reveal="left">Experienced Workers</h2>
-
-            <p class="section-text" data-reveal="left">
-              Aliquam faucibus, odio nec commodo aliquam, neque felis placerat dui, a porta ante lectus dapibus est.
-              Aliquam
-            </p>
-
-            <ul class="tab-list" data-reveal="left">
-
-              <li>
-                <button class="tab-btn active">Vision</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Mission</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Strategy</button>
-              </li>
-
-            </ul>
-
-            <p class="tab-text" data-reveal="left">
-              Aliquam faucibus, odio nec commodo aliquam, neque felis placerat dui, a porta ante lectus dapibus est.
-              Aliquam a bibendum mi, sed condimentum
-            </p>
-
-            <div class="wrapper">
-
-              <ul class="about-list">
-
-                <li class="about-item" data-reveal="left">
-                  <ion-icon name="checkmark-circle-outline"></ion-icon>
-
-                  <span class="span">Sonsectetur adipisicing elit</span>
-                </li>
-
-                <li class="about-item" data-reveal="left">
-                  <ion-icon name="checkmark-circle-outline"></ion-icon>
-
-                  <span class="span">Exercitation ullamco laboris</span>
-                </li>
-
-                <li class="about-item" data-reveal="left">
-                  <ion-icon name="checkmark-circle-outline"></ion-icon>
-
-                  <span class="span">Eiusmod tempor incididunt</span>
-                </li>
-
-                <li class="about-item" data-reveal="left">
-                  <ion-icon name="checkmark-circle-outline"></ion-icon>
-
-                  <span class="span">Aolore magna aliqua</span>
-                </li>
-
-              </ul>
-
+            <div class="about-content">
+                <h2 class="about-title" data-reveal="fade-up">
+                    About <span>Prince Healthcare</span>
+                </h2>
+                <p class="about-description" data-reveal="fade-up">
+                  <strong class="highlight-text">Prince Healthcare</strong> is a beacon of medical excellence, where expertise meets compassion. 
+                  With a legacy of advanced treatments, innovative technology, and patient-centric care, we ensure world-class healthcare solutions 
+                  for all.
+              
+                  <br><br>
+              
+                  <strong class="highlight-text">Meet Dr. Prince</strong> – The founder of Prince Healthcare, Dr. Prince is a visionary leader dedicated to transforming patient care. 
+                  With an unwavering commitment to medical excellence, he is focused on bridging the gap between cutting-edge healthcare and accessibility. 
+                  His mission is to empower people with quality healthcare, ensuring a healthier future for all.
+              
+                  <br><br>
+              
+                  At Prince Healthcare, we believe in breaking boundaries in medical science, ensuring faster recovery times, AI-powered diagnostics, 
+                  and a seamless patient experience. Our commitment is simple: Your health, our priority.
+              </p>
+              
+    
+              
+                <div class="about-buttons">
+                    <a href="#" class="btn learn-more" data-reveal="fade-up">Learn More</a>
+                    <a href="#" class="btn contact-us" data-reveal="fade-up">Get in Touch</a>
+                </div>
             </div>
-
-          </div>
-
-          <figure class="about-banner" data-reveal="right">
-            <img src="./assets/images/about-banner.png" width="554" height="678" loading="lazy" alt="about banner"
-              class="w-100">
-          </figure>
-
+    
+            <div class="about-image" data-reveal="zoom-in">
+                <img src="./assets/images/dr.prince1.webp" alt="Dr. Prince at Hospital">
+            </div>
         </div>
-      </section>
+    </section>
+    
 
-
-
-
-
-      <!-- 
-        - #LISTING
-      -->
-
-      <section class="section listing" aria-labelledby="listing-label">
-        <div class="container">
-
-          <ul class="grid-list">
-
-            <li>
-              <p class="section-subtitle title-lg" id="listing-label" data-reveal="left">Doctors Listig</p>
-
-              <h2 class="headline-md" data-reveal="left">Browse by specialist</h2>
-            </li>
-
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <div>
-                  <h3 class="headline-sm card-title">Psychiatry</h3>
-
-                  <p class="card-text">Porta velit</p>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <div>
-                  <h3 class="headline-sm card-title">Gynecology</h3>
-
-                  <p class="card-text">Mattis augue</p>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-4.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <div>
-                  <h3 class="headline-sm card-title">Pulmonology</h3>
-
-                  <p class="card-text">Mauris laoreet</p>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-5.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <div>
-                  <h3 class="headline-sm card-title">Orthopedics</h3>
-
-                  <p class="card-text">Convallis vulputate</p>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-6.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <div>
-                  <h3 class="headline-sm card-title">Pediatrics</h3>
-
-                  <p class="card-text">Posuere maecenas</p>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-7.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <div>
-                  <h3 class="headline-sm card-title">Osteology</h3>
-
-                  <p class="card-text">Nisi nullam</p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
 
 
 
